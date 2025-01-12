@@ -32,4 +32,5 @@ int main() {
 
   printf("Result is %g\n", function(x, a_1, a_2, b_1, b_2));
 
+  return 0;
 }

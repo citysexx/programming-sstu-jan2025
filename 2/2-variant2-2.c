@@ -25,4 +25,5 @@ int main() {
       printf("The points out of range 0-100!\n");
       break;
   }
+  return 0;
 }

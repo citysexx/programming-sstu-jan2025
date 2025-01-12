@@ -16,4 +16,5 @@ int main () {
     x % 100,
     x / 100
   );
+  return 0;
 }

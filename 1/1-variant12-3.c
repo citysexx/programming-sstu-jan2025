@@ -21,4 +21,5 @@ int main () {
     firstHalf % 10,
     secondHalf % 10
   );
+  return 0;
 }

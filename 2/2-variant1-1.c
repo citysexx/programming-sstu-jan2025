@@ -20,4 +20,5 @@ int main() {
 
   printf("Result is %g\n", function(x));
 
+  return 0;
 }

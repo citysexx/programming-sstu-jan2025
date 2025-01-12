@@ -14,4 +14,5 @@ int main() {
   printf("Length is %.2f\n", sqrt(
     pow(c - a, 2) + pow(d - b, 2)
   ));
+  return 0;
 }
