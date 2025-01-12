@@ -71,6 +71,7 @@ int main() {
     printf("%d ", numbers[i]);
   }
   printf("\n");
+  free(numbers);
 
   return 0;
 }

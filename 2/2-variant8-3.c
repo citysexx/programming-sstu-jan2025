@@ -68,6 +68,6 @@ int main() {
   } else {
     printf("No\n");
   }
-  
+  free(numbers);
   return 0;
 }
