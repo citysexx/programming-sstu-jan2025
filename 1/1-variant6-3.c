@@ -5,16 +5,16 @@ int main () {
   printf("Enter your number >>> ");
   scanf("%d", &x);
 
-  while (!(x < 1000 && x > 99)) {
+  while (!(x > 99 && x < 1000)) {
     printf("Invalid number!\n");
     printf("Enter your number >>> ");
     scanf("%d", &x);
   }
 
   printf(
-    "Sum: %d\nMultiplication:%d\n",
-    x / 100 + (x / 10) % 10 + x % 10,
-    (x / 100) * ((x / 10) % 10) * (x % 10)
+    "Answer: %d%d\n",
+    x,
+    x / 100
   );
+  return 0;
 }
-

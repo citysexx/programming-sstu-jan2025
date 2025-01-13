@@ -13,8 +13,9 @@ int main () {
 
   printf(
     "Answer: %d%d%d\n",
+    x % 10,
     (x / 10) % 10,
-    x / 100,
-    x % 10
+    x / 100
   );
+  return 0;
 }

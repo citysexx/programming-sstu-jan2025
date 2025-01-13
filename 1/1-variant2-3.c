@@ -15,5 +15,6 @@ int main () {
     "Answer: %d\n",
     (x / 10) % 10
   );
+  return 0;
 }
 
